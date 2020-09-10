@@ -7,7 +7,7 @@ public class MyThread implements Runnable {
         int counter = 1;
         while (!Thread.currentThread().isInterrupted()){
             System.out.println("Loop" + counter++);
-            
+
         }
         System.out.printf("%s finished... \n", Thread.currentThread().getName());
     }
